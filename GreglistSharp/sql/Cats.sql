@@ -14,7 +14,6 @@ INSERT INTO cats (name) VALUES ("Frederick");
 
 SELECT * FROM cats WHERE name LIKE "F%" AND id = 1;
 
-
 UPDATE cats SET
   name = "Felix the Cat"
 WHERE id = 1;
@@ -26,7 +25,6 @@ UPDATE cats SET
 ALTER TABLE cats ADD COLUMN(
   age int DEFAULT 0
 );
-
 
 SElECT * FROM cats;
 
